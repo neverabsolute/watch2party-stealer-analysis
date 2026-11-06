@@ -1,0 +1,11 @@
+{
+  "name": "watch2party-deobfuscation-tools",
+  "private": true,
+  "description": "Static deobfuscation pipeline for a pkg-packed, js-confuser-obfuscated Node.js stealer",
+  "dependencies": {
+    "@babel/generator": "^7",
+    "@babel/parser": "^7",
+    "@babel/traverse": "^7",
+    "@babel/types": "^7"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "sexychecker",
+  "version": "1.0.0",
+  "main": "main.js",
+  "bin": "main.js",
+  "pkg": {
+    "assets": [
+      "ico.ico",
+      "node_modules/ffi-napi/**/*",
+      "node_modules/ref-napi/**/*",
+      "node_modules/ref-struct-napi/**/*",
+      "node_modules/ref-array-napi/**/*",
+      "node_modules/axios/dist/**/*",
+      "node_modules/sql.js/dist/**/*",
+      "node_modules/bindings/**/*"
+    ],
+    "scripts": [
+      "node_modules/ffi-napi/**/binding.node",
+      "node_modules/ref-napi/**/binding.node",
+      "node_modules/ref-struct-napi/**/binding.node",
+      "node_modules/ref-array-napi/**/binding.node"
+    ]
+  },
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@primno/dpapi": "^2.0.1",
+    "axios": "^1.11.0",
+    "base64-js": "^1.5.1",
+    "better-sqlite3": "^12.4.1",
+    "electron-squirrel-startup": "^1.0.1",
+    "ffi-napi": "^4.0.3",
+    "form-data": "^4.0.4",
+    "js-confuser": "^2.0.0",
+    "jszip": "^3.10.1",
+    "libsodium-wrappers": "^0.7.15",
+    "node-windows": "^1.0.0-beta.8",
+    "p-limit": "^6.2.0",
+    "rcedit": "^5.0.2",
+    "ref-array-napi": "^1.2.2",
+    "ref-napi": "^3.0.3",
+    "ref-struct-napi": "^1.1.1",
+    "resedit": "^3.0.2",
+    "sodium-native": "^5.0.6",
+    "sql.js": "^1.13.0",
+    "sudo-prompt": "^9.2.1"
+  },
+  "devDependencies": {
+    "@yao-pkg/pkg": "^6.19.0"
+  }
+}
